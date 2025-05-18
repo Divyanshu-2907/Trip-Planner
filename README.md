@@ -1,12 +1,33 @@
-# React + Vite
+# 🌍 Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web-based application to help users seamlessly plan, organize, and visualize their travel itineraries.
 
-Currently, two official plugins are available:
+🚀 **Live Demo**: [Trip Planner on Vercel](https://trip-planner-qeqihp59z-divyanshu-kumars-projects-19091027.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🗺️ **Interactive UI** for destination and date selection  
+- 🧳 Plan trips with **multiple destinations**
+- 📆 Automatically suggests itinerary structure
+- 💾 Save and view trip details
+- 🌐 Fully **responsive** and deployed using **Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: Custom CSS
+- **Deployment**: [Vercel](https://vercel.com)
+
+---
+
+## 🚀 Getting Started Locally
+
+Clone the project:
+
+```bash
+git clone https://github.com/Divyanshu-2907/Trip-Planner.git
+cd Trip-Planner
