@@ -1,0 +1,132 @@
+/* General Styles */
+.destinations {
+  text-align: center;
+  background-color: #44624a; /* Updated background color */
+  padding: 60px 20px;
+  color: white; /* Ensuring all text is white */
+}
+
+/* Title & Description */
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white; /* White text */
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #e0e0e0; /* Light white text for readability */
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+/* Destination Grid */
+.destinations-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px; /* Increased gap */
+  flex-wrap: wrap;
+}
+
+/* Destination Card */
+.destination-card {
+  position: relative;
+  width: 300px; /* Increased width */
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* Destination Image */
+.destination-card img {
+  width: 100%;
+  height: 350px; /* Increased height */
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+}
+
+/* Overlay Effect */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 14px 0;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.destination-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Destination Name */
+.destination-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Click to View Pricing */
+.click-to-view {
+  font-size: 1rem;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .destination-card {
+    width: 280px; /* Slightly smaller for tablets */
+  }
+  .destination-card img {
+    height: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.4rem;
+  }
+  .description {
+    font-size: 1.1rem;
+  }
+  .destinations-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .destination-card {
+    width: 90%;
+    max-width: 340px;
+  }
+  .destination-card img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+  .destination-card {
+    width: 100%;
+    max-width: 320px;
+  }
+  .destination-card img {
+    height: 300px;
+  }
+}

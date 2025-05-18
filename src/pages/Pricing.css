@@ -1,0 +1,124 @@
+/* Pricing Section Styles */
+.pricing {
+  background-color: #44624a; /* Greenish background */
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 1rem;
+  color: #d1d1d1;
+  margin-bottom: 40px;
+}
+
+/* Pricing Cards Container */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.card {
+  background-color: #2e4b3f; /* Darker green */
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: #ffffff;
+}
+
+/* Best Value Card (Highlighted) */
+.best-value {
+  background-color: #ffffff;
+  color: #0d422c;
+  transform: scale(1.05);
+  border: 3px solid #2e4b3f;
+}
+
+.best-value .booking-btn {
+  background-color: #2e4b3f;
+  color: #ffffff;
+}
+
+/* Icon Box */
+.icon-box {
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #2e4b3f;
+}
+
+/* Plan Title */
+.plan-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Plan Description */
+.plan-desc {
+  font-size: 0.95rem;
+  color: #d1d1d1;
+  margin-bottom: 20px;
+}
+
+/* Pricing */
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+/* Button */
+.booking-btn {
+  background-color: #ffffff;
+  color: #2e4b3f;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-btn:hover {
+  background-color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
